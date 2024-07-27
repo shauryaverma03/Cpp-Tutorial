@@ -11,8 +11,26 @@ int main() {
     for (int j=1; j<=n-i; j++) {
       cout<<"  ";
     }
-    for (int k=1; k<=i*2; k++) {
+    for (int k=1; k<=i; k++) {
       cout<<"* ";
     }
+    for (int l=2; l<=i; l++) {
+      cout<<"* ";
+    }
+    cout<<endl;
   }
+
+  for (int m=n; m<=1; m--) {
+    for (int j=1; j<=n-i; j++) {
+      cout<<"  ";
+    }
+    for (int k=1; k<=i; k++) {
+      cout<<"* ";
+    }
+    for (int l=2; l<=i; l++) {
+      cout<<"* ";
+    }
+    cout<<endl;
+  }
+  
 }
