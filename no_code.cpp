@@ -2,5 +2,5 @@
 using namespace std;
 
 int main() {
-  cout<<"No code for today";
+  cout<<"No code for today.";
 }
