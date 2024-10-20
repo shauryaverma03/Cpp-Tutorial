@@ -70,26 +70,6 @@ void inorder(node* root) {
     inorder(root -> right);
 }
 
-void preorder(node* root) {
-    // base code
-    if (root == NULL) {
-        return ;
-    }
-    cout<<root -> data<<" ";
-    preorder(root -> left);
-    preorder(root -> right);
-}
-
-void postorder(node* root) {
-    // base code
-    if (root == NULL) {
-        return ;
-    }
-    postorder(root -> left);
-    postorder(root -> right);
-    cout<<root -> data<<" ";
-}
-
 int main() {
     node* root = NULL;
 
@@ -103,16 +83,6 @@ int main() {
 
     cout<<"Inorder Traversal is: ";
     inorder(root);
-
-    cout<<endl;
-
-    cout<<"Preorder Traversal is: ";
-    preorder(root);
-
-    cout<<endl;
-
-    cout<<"Postorder Traversal is: ";
-    postorder(root);
 
     return 0;
 }
