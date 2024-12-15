@@ -31,6 +31,8 @@ node* buildTree(node* root) {
 
 }
 
+// preorder
+
 
 int main() {
     node* root = NULL;
